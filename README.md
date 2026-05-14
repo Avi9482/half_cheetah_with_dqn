@@ -120,7 +120,7 @@ halfcheetah-dqn/
 │
 ├── dqn_halfcheetah.pt                      ← Saved Q-network weights (post-training)
 ├── dqn_eval.mp4                            ← Recorded evaluation rollout video
-│                   ← PPO normalized value loss
+│      
 │
 └── README.md                               ← This file
 ```
