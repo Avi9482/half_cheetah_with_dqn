@@ -120,14 +120,7 @@ halfcheetah-dqn/
 │
 ├── dqn_halfcheetah.pt                      ← Saved Q-network weights (post-training)
 ├── dqn_eval.mp4                            ← Recorded evaluation rollout video
-│
-├── dqn_halfcheetah_metrics_with_loss.png   ← Raw episode return, length & loss curves
-├── dqn_halfcheetah_metrics_normalized.png  ← Normalized versions of the above
-├── ppo_vs_dqn_comparison.png               ← Side-by-side PPO vs DQN metric comparison
-│
-├── returns_norm.npy                        ← PPO normalized episodic returns
-├── lengths_norm.npy                        ← PPO normalized episode lengths
-├── value_loss_norm.npy                     ← PPO normalized value loss
+│                   ← PPO normalized value loss
 │
 └── README.md                               ← This file
 ```
