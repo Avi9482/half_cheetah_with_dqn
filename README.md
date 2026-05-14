@@ -16,7 +16,6 @@ This project implements a **Deep Q-Network (DQN)** agent to solve the `HalfCheet
  
 To bridge this gap, a custom **`DiscretizedActionWrapper`** is introduced that discretizes each action dimension into `bins` uniformly-spaced values, creating a finite combinatorial action grid. The agent is then trained end-to-end using standard DQN with experience replay and a target network.
  
-Finally, the DQN agent is **benchmarked against a PPO baseline** on normalized metrics including episodic return, episode length, and training loss — providing a practical illustration of how algorithm-environment fit impacts performance.
  
 ---
  
